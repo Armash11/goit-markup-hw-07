@@ -771,6 +771,8 @@ button {
   opacity: 1;
 }
 
+/* -----------------MODAL WINDOW------------------- */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -840,9 +842,6 @@ button {
 
   margin-top: 24px;
   margin-bottom: 16px;
-}
-
-.modal-lable {
 }
 
 .input-wrap {
