@@ -68,7 +68,7 @@
         </div>
       </div>
 
-      <div class="mobile-menu" is-hidden data-menu>
+      <div class="mobile-menu is-hidden" data-menu>
         <div>
           <button class="menu-close-btn" type="button" data-menu-close>
             <svg class="mobile-menu-close-icon" width="8" height="8">
@@ -226,6 +226,7 @@
           <ul class="list">
             <li class="work-item">
               <img
+                srcset="./images/img1-2x.jpg 2x"
                 class="work-img"
                 src="./images/img-1.jpg"
                 alt="computer screen"
@@ -235,6 +236,7 @@
             </li>
             <li class="work-item">
               <img
+                srcset="./images/img2-2x.jpg 2x"
                 class="work-img"
                 src="./images/img-2.jpg"
                 alt="mobile phone"
@@ -244,6 +246,7 @@
             </li>
             <li class="work-item">
               <img
+                srcset="./images/img3-2x.jpg 2x"
                 class="work-img"
                 src="./images/img-3.jpg"
                 alt="mobile phone in hand"
@@ -263,6 +266,7 @@
             <li class="foto">
               <img
                 class="team-img"
+                srcset="./images/team-1-2x.jpg 2x"
                 src="./images/team-img-1.jpg"
                 alt="photo of a parson"
                 width="264"
@@ -305,6 +309,7 @@
             </li>
             <li class="foto">
               <img
+                srcset="./images/team-2-2x.jpg 2x"
                 class="team-img"
                 src="./images/team-img-2.jpg"
                 alt="photo of a parson"
@@ -348,6 +353,7 @@
             </li>
             <li class="foto">
               <img
+                srcset="./images/team-3-2x.jpg 2x"
                 class="team-img"
                 src="./images/team-img-3.jpg"
                 alt="photo of a parson"
@@ -391,6 +397,7 @@
             </li>
             <li class="foto">
               <img
+                srcset="./images/team-4-2x.jpg 2x"
                 class="team-img"
                 src="./images/team-img-4.jpg"
                 alt="photo of a parson"
@@ -538,24 +545,25 @@
             </ul>
           </div>
         </div>
-        <div class="footer-sub-wrap">
-          <p class="footer-sub">Subscribe</p>
+        <div class="footer-sub-box">
+          <p class="footer-sub-text">Subscribe</p>
           <form class="footer-form">
-            <label class="footer-label">
-              <input
-                type="email"
-                name="user-email"
-                class="footer-input"
-                placeholder="Email"
-              />
-            </label>
-
-            <span class="button-wrap">
-              <button type="submit" class="footer-btn">Subscribe</button>
-              <svg class="frame-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-Frame"></use>
-              </svg>
-            </span>
+            <div class="sub-field">
+              <label class="footer-label">
+                <input
+                  type="email"
+                  name="user-email"
+                  class="footer-input"
+                  placeholder="Email"
+                />
+              </label>
+              <span class="button-wrap">
+                <button type="submit" class="footer-btn">Subscribe</button>
+                <svg class="frame-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-Frame"></use>
+                </svg>
+              </span>
+            </div>
           </form>
         </div>
       </div>
