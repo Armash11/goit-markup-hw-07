@@ -636,8 +636,6 @@ button {
 
 /*-------------SECTION 1---------------*/
 
-.service {
-}
 .service-list {
   display: flex;
   gap: 24px;
